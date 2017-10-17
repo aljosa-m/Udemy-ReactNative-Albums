@@ -1,2 +1,13 @@
 import React from 'react';
-import ReactNative from 'react-native';
+import { StyleSheet, Text, View } from 'react-native';
+import Header from './src/components/Header';
+
+export default class App extends React.Component {
+  render() {
+    return (
+      <View>
+        <Header headerText={'Albums'} />
+      </View>
+    )
+  }
+}
